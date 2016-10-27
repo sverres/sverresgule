@@ -34,12 +34,14 @@
     <link rel="stylesheet" href="css/html5reset.css" media="all">
     <link rel="stylesheet" href="css/col.css" media="all">
     <link rel="stylesheet" href="css/4cols.css" media="all">
-
+    <!--
+    <link rel="stylesheet" href="css/diagnostic.css" media="all">
+    -->
     <style type="text/css">
         @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
         @import url(https://fonts.googleapis.com/css?family=Archivo+Black);
         body {
-            padding: 1em 5em 0 5em;
+            padding: 1em 5em 60em 5em;
             font: 100%/1.4 'Archivo+Black', helvetica, sans-serif;
             background-color: #fefefc;
         }
@@ -62,6 +64,9 @@
         .col {
             padding: 1em 0;
         }
+        nav {
+          //background-color: #ff5c00;
+        }
         a {
             text-decoration: none;
         }
@@ -78,13 +83,33 @@
         <h1>Sverres gule side</h1>
     </div>
 
+<nav>
+    | 
+    <a href="#NTNU">NTNU</a> |
+    <a href="#PIM">PIM</a> |
+    <a href="#Engelsk">Engelsk</a> |
+    <a href="#Nyheter">Nyheter</a> |
+    <a href="#Web">Web</a> |
+    <a href="#Kart">Kart</a> |
+    <a href="#GEO2311">GEO2311</a> |
+    <a href="#GEO1121">GEO1121</a> |
+    <a href="#GEO3141">GEO3141</a> |
+    <a href="#NTNU-IT">NTNU-IT</a> |
+    <a href="#Vaer">Vær</a> |
+    <a href="#SS">Ski &amp; sykkel</a> |
+    <a href="#Tek">Tek</a> |
+    <a href="#HP">Hackers &amp; Painters</a> |
+    <a href="#Feed">Feed</a> |
+</nav>
+
     <div class="section group">
         <div class="col span_1_of_4">
-            <h2>NTNU</h2>
+            <h2 id="NTNU">NTNU</h2>
             <ul>
                 <li><a href="https://innsida.ntnu.no/user/sverrsti">Innsida</a></li>
                 <li><a href="https://ntnu.blackboard.com">Blackboard</a></li>
                 <li><a href="https://fronter.com/hig">Fronter</a></li>
+                <li><a href="https://mail.ntnu.no">Mail</a></li>
                 <li><a href="http://ntnu.oria.no/">Oria</a></li>
                 <li><a href="http://www.ntnu.no/ub">bibliotek</a></li>
                 <li><a href="https://no.timeedit.net/web/hig/db1/open">timeplan</a></li>
@@ -97,7 +122,7 @@
             </ul>
         </div>
         <div class="col span_1_of_4">
-            <h2>PIM</h2>
+            <h2 id="PIM">PIM</h2>
             <ul>
                 <li><a href="https://www.google.no/?gfe_rd=cr">Google</a></li>
                 <li><a href="http://www.timeanddate.com/calendar/monthly.html#ct1">Kalender</a></li>
@@ -113,7 +138,7 @@
             </ul>
         </div>
         <div class="col span_1_of_4">
-            <h2>Engelsk</h2>
+            <h2 id="Engelsk">Engelsk</h2>
             <ul>
                 <li><a href="http://translate.google.com/translate_t#en|no|">Google Translate</a></li>
                 <li><a href="http://www.bartleby.com/usage/">English Usage</a></li>
@@ -124,7 +149,7 @@
             </ul>
         </div>
         <div class="col span_1_of_4">
-            <h2>Nyheter</h2>
+            <h2 id="Nyheter">Nyheter</h2>
             <ul>
                 <li><a href="http://www.aftenposten.no/">Aftenposten</a></li>
                 <li><a href="http://www.dagbladet.no/">Dagbladet</a></li>
@@ -138,7 +163,7 @@
     </div>
     <div class="section group">
         <div class="col span_1_of_4">
-            <h2>Web</h2>
+            <h2 id="Web">Web</h2>
             <ul>
                 <li><a href="http://www.w3schools.com/">w3schools.com</a></li>
                 <li><a href="https://www.codecademy.com/learn/web">Codeacedemy</a></li>
@@ -150,11 +175,19 @@
                 <li><a href="http://www.color-hex.com/color-palettes/">color-hex</a></li>
                 <li><a href="http://clrs.cc/">clrs.cc</a></li>
                 <li><a href="https://coolors.co/browser/picks/1">coolors.co</a></li>
+                <li><a href="http://dabblet.com/">dabblet</a></li>
+                <li><a href="http://lea.verou.me/">Lea Verou</a></li>
+                <li><a href="http://markapp.io/">markapp.io</a></li>
+                <li><a href="http://fontawesome.io/cheatsheet/">Font Awesome</a></li>
+                <li><a href="https://html5boilerplate.com/">Boilerplate</a></li>
                 <li><a href="http://www.responsivegridsystem.com/">Responsive Grid</a></li>
+                <li><a href="http://meyerweb.com/eric/tools/dencoder/">Decoder/Encoder</a></li>
+                <li><a href="https://jsonformatter.curiousconcept.com/">JSON formatter</a></li>
+                <li><a href="http://docs.emmet.io/cheat-sheet/">Emmet</a></li>
             </ul>
         </div>
         <div class="col span_1_of_4">
-            <h2>Kart</h2>
+            <h2 id="Kart">Kart</h2>
             <ul>
                 <li><a href="https://www.google.no/maps/@60.7,10.8,7z">Google Maps</a></li>
                 <li><a href="http://www.norgeskart.no/#5/280000/6730000">Norgeskart</a></li>
@@ -171,7 +204,7 @@
             </ul>
         </div>
         <div class="col span_1_of_4">
-            <h2>GEO2311</h2>
+            <h2 id="GEO2311">GEO2311</h2>
             <ul>
                 <li><a href="http://ryanstutorials.net/">tech tutorials</a></li>
                 <li><a href="https://rawgit.com/sverres/NTNU-GEO2311-dok/master/">emneside</a></li>
@@ -192,7 +225,7 @@
             </ul>
         </div>
         <div class="col span_1_of_4">
-            <h2>GEO1121</h2>
+            <h2 id="GEO1121">GEO1121</h2>
             <ul>
                 <li><a href="http://desktop.arcgis.com/en/documentation/">ArcGIS help</a></li>
                 <li><a href="http://www.itc.nl/library/papers_2009/general/PrinciplesGIS.pdf">ITC textbook</a></li>
@@ -204,7 +237,7 @@
         </div>
         <div class="section group">
             <div class="col span_1_of_4">
-                <h2>GEO3141</h2>
+                <h2 id="GEO3141">GEO3141</h2>
                 <ul>
                     <li><a href="http://copernicus.hig.no">copernicus</a></li>
                     <li><a href="http://server.arcgis.com/en/server/">ArcGIS for server</a></li>
@@ -218,7 +251,7 @@
                 </ul>
             </div>
             <div class="col span_1_of_4">
-                <h2>NTNU-IT</h2>
+                <h2 id="NTNU-IT">NTNU-IT</h2>
                 <ul>
                     <li><a href="https://software.ntnu.no/">software</a></li>
                     <li><a href="https://innsida.ntnu.no/it-stotte">IT-hjelp</a></li>
@@ -227,7 +260,7 @@
                 </ul>
             </div>
             <div class="col span_1_of_4">
-                <h2>Vær</h2>
+                <h2 id="Vaer">Vær</h2>
                 <ul>
                     <li><a href="http://www.yr.no/sted/Norge/Oppland/%C3%98stre_Toten/Helgestadfeltet/time_for_time.html">Helgestadfeltet</a></li>
                     <li><a href="http://www.yr.no/sted/Norge/Oppland/Gj%C3%B8vik/Kallerud~130129/time_for_time.html">Gjøvik</a></li>
@@ -239,7 +272,7 @@
                 </ul>
             </div>
             <div class="col span_1_of_4">
-                <h2>Ski &amp; sykkel</h2>
+                <h2 id="SS">Ski &amp; sykkel</h2>
                 <ul>
                     <li><a href="http://ostre-toten-skilag.no/">ØTS</a></li>
                     <li><a href="http://www.totenasloyper.no/">Totenåsløyper</a></li>
@@ -253,7 +286,7 @@
         </div>
         <div class="section group">
             <div class="col span_1_of_4">
-                <h2>Tek</h2>
+                <h2 id="Tek">Tek</h2>
                 <ul>
                     <li><a href="http://www.tu.no/">TU</a></li>
                     <li><a href="http://www.dinside.no/">Din side</a></li>
@@ -262,7 +295,7 @@
                 </ul>
             </div>
             <div class="col span_1_of_4">
-                <h2>Hackers &amp; Painters</h2>
+                <h2 id="HP">Hackers &amp; Painters</h2>
                 <ul>
                     <li><a href="https://github.com/sverres">github</a></li>
                     <li><a href="http://sverres.net/clojure/">clojure</a></li>
@@ -273,7 +306,7 @@
                 &nbsp;
             </div>
             <div class="col span_1_of_4">
-                <h2>Feed</h2>
+                <h2 id="Feed">Feed</h2>
                 <ul>
                     <li><a href="https://www.facebook.com/">Facebook</a></li>
                     <li><a href="https://www.instagram.com/">Instagram</a></li>
