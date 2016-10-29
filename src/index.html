@@ -25,6 +25,8 @@
 
     <link rel="shortcut icon" href="/favicon.ico">
 
+    <script src="https://use.fontawesome.com/5747f428eb.js"></script>
+
     <!-- Responsive and mobile friendly stuff -->
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
@@ -41,7 +43,7 @@
         @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
         @import url(https://fonts.googleapis.com/css?family=Archivo+Black);
         body {
-            padding: 1em 5em 60em 5em;
+            padding: 1em 5em 35em 5em;
             font: 100%/1.4 'Archivo+Black', helvetica, sans-serif;
             background-color: #fefefc;
         }
@@ -53,6 +55,7 @@
             font-size: 2.2em;
             padding: .5em 0 .5em 5px;
             background-color: #FFDC00;
+            box-shadow: 8px 8px 5px #888888;
         }
         h2 {
             font-size: 1.5em;
@@ -64,14 +67,25 @@
         .col {
             padding: 1em 0;
         }
-        nav {
-          //background-color: #ff5c00;
+        nav a {
+          padding: 3em 1em 0 0.5em;
         }
         a {
             text-decoration: none;
         }
         ul {
             list-style-type: none;
+        }
+        .footer {
+        	background-color: #292c2f;
+          box-shadow: 8px 8px 5px #888888;
+        	box-sizing: border-box;
+        	width: 100%;
+        	text-align: center;
+        	font: normal 18px sans-serif;
+        	padding: 5em;
+        	margin-top: 5em;
+          padding: 1em 5em 10em 5em;
         }
     </style>
 
@@ -84,30 +98,30 @@
     </div>
 
 <nav>
-    | 
-    <a href="#NTNU">NTNU</a> |
-    <a href="#PIM">PIM</a> |
-    <a href="#Engelsk">Engelsk</a> |
-    <a href="#Nyheter">Nyheter</a> |
-    <a href="#Web">Web</a> |
-    <a href="#Kart">Kart</a> |
-    <a href="#GEO2311">GEO2311</a> |
-    <a href="#GEO1121">GEO1121</a> |
-    <a href="#GEO3141">GEO3141</a> |
-    <a href="#NTNU-IT">NTNU-IT</a> |
-    <a href="#Vaer">Vær</a> |
-    <a href="#SS">Ski &amp; sykkel</a> |
-    <a href="#Tek">Tek</a> |
-    <a href="#HP">Hackers &amp; Painters</a> |
-    <a href="#Feed">Feed</a> |
+    <a href="#NTNU">NTNU</a>
+    <a href="#PIM">PIM</a>
+    <a href="#Engelsk">Engelsk</a>
+    <a href="#Nyheter">Nyheter</a>
+    <a href="#Web">Web</a>
+    <a href="#Kart">Kart</a>
+    <a href="#GEO2311">GEO2311</a>
+    <a href="#GEO1121">GEO1121</a>
+    <a href="#GEO3141">GEO3141</a>
+    <a href="#NTNU-IT">NTNU-IT</a>
+    <a href="#Vaer">Vær</a>
+    <a href="#SS">Ski &amp; sykkel</a>
+    <a href="#Tek">Tek</a>
+    <a href="#HP">Hackers &amp; Painters</a>
+    <a href="#Feed">Feed</a>
 </nav>
 
     <div class="section group">
         <div class="col span_1_of_4">
-            <h2 id="NTNU">NTNU</h2>
+            <h2 id="NTNU"><i class="fa fa-university" title="NTNU"></i></h2>
             <ul>
                 <li><a href="https://innsida.ntnu.no/user/sverrsti">Innsida</a></li>
                 <li><a href="https://ntnu.blackboard.com">Blackboard</a></li>
+                <li><a href="https://studntnu-my.sharepoint.com/personal/sverrsti_ntnu_no/_layouts/15/onedrive.aspx">OneDrive</a></li>
                 <li><a href="https://fronter.com/hig">Fronter</a></li>
                 <li><a href="https://mail.ntnu.no">Mail</a></li>
                 <li><a href="http://ntnu.oria.no/">Oria</a></li>
@@ -122,7 +136,7 @@
             </ul>
         </div>
         <div class="col span_1_of_4">
-            <h2 id="PIM">PIM</h2>
+            <h2 id="PIM"><i class="fa fa-calendar" title="PIM"></i></h2>
             <ul>
                 <li><a href="https://www.google.no/?gfe_rd=cr">Google</a></li>
                 <li><a href="http://www.timeanddate.com/calendar/monthly.html#ct1">Kalender</a></li>
@@ -133,23 +147,24 @@
                 <li><a href="http://ordbok.uib.no/">Ordboka</a></li>
                 <li><a href="https://www.ordnett.no/">ordnett.no</a></li>
                 <li><a href="https://snl.no/">Store Norske</a></li>
+                <li><a href="https://dropbox.com/">Dropbox</a></li>
                 <li><a href="https://docs.google.com">Google Docs</a></li>
                 <li><a href="https://gmail.com/">GMail</a></li>
             </ul>
         </div>
         <div class="col span_1_of_4">
-            <h2 id="Engelsk">Engelsk</h2>
+            <h2 id="Engelsk"><i class="fa fa-book" title="Engelsk"></i></h2>
             <ul>
+                <li><a href="http://www.m-w.com/">Webster</a></li>
                 <li><a href="http://translate.google.com/translate_t#en|no|">Google Translate</a></li>
                 <li><a href="http://www.bartleby.com/usage/">English Usage</a></li>
-                <li><a href="http://www.m-w.com/">Webster</a></li>
                 <li><a href="http://www.urbandictionary.com/">Urban</a></li>
                 <li><a href="http://en.wikipedia.org/wiki/Main_Page">Wikipedia</a></li>
                 <li><a href="https://scholar.google.no/">Google Scholar</a></li>
             </ul>
         </div>
         <div class="col span_1_of_4">
-            <h2 id="Nyheter">Nyheter</h2>
+            <h2 id="Nyheter"><i class="fa fa-newspaper-o" title="Nyheter"></i></h2>
             <ul>
                 <li><a href="http://www.aftenposten.no/">Aftenposten</a></li>
                 <li><a href="http://www.dagbladet.no/">Dagbladet</a></li>
@@ -163,14 +178,15 @@
     </div>
     <div class="section group">
         <div class="col span_1_of_4">
-            <h2 id="Web">Web</h2>
+            <h2 id="Web"><i class="fa fa-code" title="Web"></i></h2>
             <ul>
                 <li><a href="http://www.w3schools.com/">w3schools.com</a></li>
                 <li><a href="https://www.codecademy.com/learn/web">Codeacedemy</a></li>
+                <li><a href="http://ryanstutorials.net/">Ryans Tutorials</a></li>
                 <li><a href="http://www.htmlandcssbook.com/code-samples/">HTML-kode</a></li>
-                <li><a href="http://javascriptbook.com/code/">javascript-kode</a></li>
                 <li><a href="http://eloquentjavascript.net/">Eloquent JavaScript</a></li>
                 <li><a href="http://www.asmarterwaytolearn.com/js/index-of-exercises.html">javascript-oppgaver</a></li>
+                <li><a href="http://javascriptbook.com/code/">javascript-kode</a></li>
                 <li><a href="http://www.w3schools.com/cssref/css_colors.asp">CSS colors</a></li>
                 <li><a href="http://www.color-hex.com/color-palettes/">color-hex</a></li>
                 <li><a href="http://clrs.cc/">clrs.cc</a></li>
@@ -179,15 +195,12 @@
                 <li><a href="http://lea.verou.me/">Lea Verou</a></li>
                 <li><a href="http://markapp.io/">markapp.io</a></li>
                 <li><a href="http://fontawesome.io/cheatsheet/">Font Awesome</a></li>
-                <li><a href="https://html5boilerplate.com/">Boilerplate</a></li>
                 <li><a href="http://www.responsivegridsystem.com/">Responsive Grid</a></li>
-                <li><a href="http://meyerweb.com/eric/tools/dencoder/">Decoder/Encoder</a></li>
-                <li><a href="https://jsonformatter.curiousconcept.com/">JSON formatter</a></li>
                 <li><a href="http://docs.emmet.io/cheat-sheet/">Emmet</a></li>
             </ul>
         </div>
         <div class="col span_1_of_4">
-            <h2 id="Kart">Kart</h2>
+            <h2 id="Kart"><i class="fa fa-map-marker" title="Kart"></i></h2>
             <ul>
                 <li><a href="https://www.google.no/maps/@60.7,10.8,7z">Google Maps</a></li>
                 <li><a href="http://www.norgeskart.no/#5/280000/6730000">Norgeskart</a></li>
@@ -206,7 +219,6 @@
         <div class="col span_1_of_4">
             <h2 id="GEO2311">GEO2311</h2>
             <ul>
-                <li><a href="http://ryanstutorials.net/">tech tutorials</a></li>
                 <li><a href="https://rawgit.com/sverres/NTNU-GEO2311-dok/master/">emneside</a></li>
                 <li><a href="http://kartverket.no/data/Kartdata/">kartdata</a></li>
                 <li><a href="https://www.geonorge.no/">geonorge</a></li>
@@ -218,10 +230,12 @@
                 <li><a href="http://openlayers.org/en/latest/doc/tutorials/concepts.html">Open Layers</a></li>
                 <li><a href="https://www.mapbox.com/mapbox-studio/">Mapbox studio</a></li>
                 <li><a href="https://www.mapbox.com/help/mapbox-gl-js-fundamentals/">Mapbox GL JS</a></li>
-                <li><a href="http://colorbrewer2.org/">Colorbrewer</a></li>
                 <li><a href="http://boundlessgeo.com/products/">Boundless</a></li>
                 <li><a href="http://postgis.net/docs/manual-2.3/reference.html">PostGIS</a></li>
                 <li><a href="http://boundlessgeo.com/products/qgis/">QGIS</a></li>
+                <li><a href="http://colorbrewer2.org/">Colorbrewer</a></li>
+                <li><a href="http://meyerweb.com/eric/tools/dencoder/">Decoder/Encoder</a></li>
+                <li><a href="https://jsonformatter.curiousconcept.com/">JSON formatter</a></li>
             </ul>
         </div>
         <div class="col span_1_of_4">
@@ -251,7 +265,7 @@
                 </ul>
             </div>
             <div class="col span_1_of_4">
-                <h2 id="NTNU-IT">NTNU-IT</h2>
+                <h2 id="NTNU-IT"><i class="fa fa-desktop" title="NTNU-IT"></i></h2>
                 <ul>
                     <li><a href="https://software.ntnu.no/">software</a></li>
                     <li><a href="https://innsida.ntnu.no/it-stotte">IT-hjelp</a></li>
@@ -260,7 +274,7 @@
                 </ul>
             </div>
             <div class="col span_1_of_4">
-                <h2 id="Vaer">Vær</h2>
+                <h2 id="Vaer"><i class="fa fa-sun-o"  title="Vær">&nbsp;&nbsp;</i><i class="fa fa-snowflake-o" title="Vær"></i></h2>
                 <ul>
                     <li><a href="http://www.yr.no/sted/Norge/Oppland/%C3%98stre_Toten/Helgestadfeltet/time_for_time.html">Helgestadfeltet</a></li>
                     <li><a href="http://www.yr.no/sted/Norge/Oppland/Gj%C3%B8vik/Kallerud~130129/time_for_time.html">Gjøvik</a></li>
@@ -286,7 +300,7 @@
         </div>
         <div class="section group">
             <div class="col span_1_of_4">
-                <h2 id="Tek">Tek</h2>
+                <h2 id="Tek"><i class="fa fa-cogs" title="Tek"></i></h2>
                 <ul>
                     <li><a href="http://www.tu.no/">TU</a></li>
                     <li><a href="http://www.dinside.no/">Din side</a></li>
@@ -306,7 +320,7 @@
                 &nbsp;
             </div>
             <div class="col span_1_of_4">
-                <h2 id="Feed">Feed</h2>
+                <h2 id="Feed"><i class="fa fa-rss" title="Feed"></i></h2>
                 <ul>
                     <li><a href="https://www.facebook.com/">Facebook</a></li>
                     <li><a href="https://www.instagram.com/">Instagram</a></li>
@@ -314,6 +328,7 @@
                 </ul>
             </div>
         </div>
+
 </body>
 
 </html>
