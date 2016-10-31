@@ -43,48 +43,48 @@
         @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
         @import url(https://fonts.googleapis.com/css?family=Archivo+Black);
         body {
-            padding: 1em 5em 35em 5em;
+            padding: 1em 5em 55em 5em;
             font: 100%/1.4 'Archivo+Black', helvetica, sans-serif;
             background-color: #fefefc;
         }
-        h1, h2, h3 {
+
+        h1,
+        h2,
+        h3 {
             font-family: 'Yanone Kaffeesatz';
             font-weight: normal;
         }
+
         h1 {
             font-size: 2.2em;
             padding: .5em 0 .5em .2em;
             background-color: #FFDC00;
             box-shadow: .2em .2em .2em #888888;
         }
+
         h2 {
             font-size: 1.5em;
             padding-bottom: .5em;
         }
+
         .header {
             padding: 1em 0;
         }
+
         .col {
             padding: 1em 0;
         }
+
         nav a {
-          padding: .5em 0 0 .5em;
+            padding: .5em 0 0 .5em;
         }
+
         a {
             text-decoration: none;
         }
+
         ul {
             list-style-type: none;
-        }
-        .footer {
-        	background-color: #292c2f;
-            box-shadow: .2em .2em .2em #888888;
-        	box-sizing: border-box;
-        	width: 100%;
-        	text-align: center;
-        	font: normal 1em sans-serif;
-        	margin-top: 5em;
-            padding: 1em 5em 10em 5em;
         }
     </style>
 
@@ -96,23 +96,24 @@
         <h1>Sverres gule side</h1>
     </div>
 
-<nav>
-    <a href="#NTNU">NTNU</a>
-    <a href="#PIM">PIM</a>
-    <a href="#Engelsk">Engelsk</a>
-    <a href="#Nyheter">Nyheter</a>
-    <a href="#Web">Web</a>
-    <a href="#Kart">Kart</a>
-    <a href="#GEO2311">GEO2311</a>
-    <a href="#GEO1121">GEO1121</a>
-    <a href="#GEO3141">GEO3141</a>
-    <a href="#NTNU-IT">NTNU-IT</a>
-    <a href="#Vaer">Vær</a>
-    <a href="#SS">Ski &amp; sykkel</a>
-    <a href="#Tek">Tek</a>
-    <a href="#HP">Hackers &amp; Painters</a>
-    <a href="#Feed">Feed</a>
-</nav>
+    <nav>
+        <a href="#NTNU">NTNU</a>
+        <a href="#PIM">PIM</a>
+        <a href="#Engelsk">Engelsk</a>
+        <a href="#Nyheter">Nyheter</a>
+        <a href="#Web">Web</a>
+        <a href="#Kart">Kart</a>
+        <a href="#GEO2311">GEO2311</a>
+        <a href="#GEO1121">GEO1121</a>
+        <a href="#GEO3141">GEO3141</a>
+        <a href="#NTNU-IT">NTNU-IT</a>
+        <a href="#Vaer">Vær</a>
+        <a href="#SS">Ski &amp; sykkel</a>
+        <a href="#Tek">Tek</a>
+        <a href="#Feed">Feed</a>
+        <a href="#HP">Hackers &amp; Painters</a>
+        <a href="#Tools">Tools</a>
+    </nav>
 
     <div class="section group">
         <div class="col span_1_of_4">
@@ -233,8 +234,6 @@
                 <li><a href="http://postgis.net/docs/manual-2.3/reference.html">PostGIS</a></li>
                 <li><a href="http://boundlessgeo.com/products/qgis/">QGIS</a></li>
                 <li><a href="http://colorbrewer2.org/">Colorbrewer</a></li>
-                <li><a href="http://meyerweb.com/eric/tools/dencoder/">Decoder/Encoder</a></li>
-                <li><a href="https://jsonformatter.curiousconcept.com/">JSON formatter</a></li>
             </ul>
         </div>
         <div class="col span_1_of_4">
@@ -308,6 +307,14 @@
                 </ul>
             </div>
             <div class="col span_1_of_4">
+                <h2 id="Feed"><i class="fa fa-rss" title="Feed"></i></h2>
+                <ul>
+                    <li><a href="https://www.facebook.com/">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="https://twitter.com/">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="col span_1_of_4">
                 <h2 id="HP">Hackers &amp; Painters</h2>
                 <ul>
                     <li><a href="https://github.com/sverres">github</a></li>
@@ -316,16 +323,19 @@
                 </ul>
             </div>
             <div class="col span_1_of_4">
-                &nbsp;
-            </div>
-            <div class="col span_1_of_4">
-                <h2 id="Feed"><i class="fa fa-rss" title="Feed"></i></h2>
+                <h2 id="Tools"><i class="fa fa-wrench" title="Hacker Tools"></i></h2>
                 <ul>
-                    <li><a href="https://www.facebook.com/">Facebook</a></li>
-                    <li><a href="https://www.instagram.com/">Instagram</a></li>
-                    <li><a href="https://twitter.com/">Twitter</a></li>
+                    <li><a href="https://write-box.appspot.com/">Writebox</a></li>
+                    <li><a href="https://html-online.com/editor/">HTML editor</a>
+                        <li><a href="https://www.shellcheck.net/">ShellCheck</a></li>
+                        <li><a href="http://meyerweb.com/eric/tools/dencoder/">Decoder/Encoder</a></li>
+                        <li><a href="https://jsonformatter.curiousconcept.com/">JSON formatter</a></li>
+                        <li><a href="http://commonmark.org/help/">CommonMark</a></li>
+                        <li><a href="https://help.github.com/articles/working-with-advanced-formatting/">GFM</a></li>
+                        <li><a href="http://johnmacfarlane.net/tools.html">pandoc</a></li>
                 </ul>
             </div>
+
         </div>
 
 </body>
